@@ -1,0 +1,15 @@
+/* muda um pouco a aparência do card */
+.card-personalizado {
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+/* efeito quando passa o mouse */
+.card-personalizado:hover {
+  transform: translateY(-5px);
+}
+
+/* sombra personalizada */
+.sombra-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
